@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html, body, main {
+    height: 100%;
+    width: 100%;
+    background-color: #F1F1F1;
+}
+
+.banner {
+    background-image: url('../img/newspapersWide.jpg');
+    background-repeat: repeat-x;
+    display: block;
+    min-height: 100px;
+    height: 18%;
+}
+
+.button {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    color: #454545;
+    padding: 3px;
+}
+
+.container-constraint {
+    max-width: 1440px!important;
+}
+
+.nudge-down {
+    margin-top: 10px!important;
+}
+
+.nudge-down-2x {
+    margin-top: 20px!important;
+}
+
+.nudge-up {
+    margin-bottom: 10px!important;
+}
+
+.nudge-up-2x {
+    margin-bottom: 20px!important;
+}
+
+.shadow {
+    box-shadow: 0 4px 5px -4px rgba(0,0,0,.25);
+}
+
+.story {
+    background-color: white;
+    display: inline-block;
+    height: 125px;
+    margin: 5px;
+    width: 425px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.storyPane {
+    padding: 10px;
+}
