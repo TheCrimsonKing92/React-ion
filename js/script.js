@@ -103,7 +103,7 @@ var StoryList = React.createClass({
     render: function() {
         var stories = this.props.data.filter(this.filterExcluded).map(this.mapStory);
         return (
-          <div className="nudge-down-2x row">
+          <div className="nudge-down-2x row text-center">
             <div className="col-xs-12">
                 {stories}
             </div>
